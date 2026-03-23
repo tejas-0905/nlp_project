@@ -33,5 +33,32 @@ The system preprocesses text, converts it into numerical features using **TF-IDF
 
 ---
 
-## 📂 Project Structure
+## ⚙️ How It Works
+
+### 1. Load Dataset
+Movie reviews dataset containing:
+- Review text  
+- Sentiment (positive / negative)
+
+### 2. Text Preprocessing
+- Convert to lowercase  
+- Remove punctuation  
+- Remove stopwords  
+- Tokenization  
+- Stemming / Lemmatization (optional)
+
+### 3. Feature Extraction
+Convert text into vectors using **TF-IDF Vectorizer**
+
+### 4. Model Training
+Train classifier such as:
+- Logistic Regression  
+- Naive Bayes  
+- Support Vector Machine (optional)
+
+### 5. Prediction
+Model predicts:
+- Positive  
+- Negative  
+
 
